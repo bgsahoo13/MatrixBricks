@@ -1,0 +1,48 @@
+.navbar-para {
+  background-color: #f77d2e;
+  color: white;
+  font-weight: 600;
+  height: 1.5rem;
+}
+
+.navbar-brand img {
+  width: 12rem;
+}
+.navbar-expand-lg {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-center {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+hr {
+  font-weight: bold;
+  color: orange;
+  background-color: #f77d2e;
+}
+
+.navbar-footer a {
+  width: calc(100% / 3);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  left: 27rem;
+}
+.navbar-footer a:hover {
+  color: orange;
+}
+
+.navbar-footer hr {
+  margin: 10px 0;
+}

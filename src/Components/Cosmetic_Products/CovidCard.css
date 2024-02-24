@@ -1,0 +1,15 @@
+.covid-main-conatiner {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.covid-child-conatiner {
+  width: 100%;
+}
+
+.covid-child-conatiner img {
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+}

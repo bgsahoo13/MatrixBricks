@@ -1,0 +1,71 @@
+.contact-main-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 16rem;
+}
+.contact-child-container {
+  width: 75vw;
+  height: 10rem;
+  padding: 1rem;
+}
+.contact-child-container hr {
+  background-color: #f77d2e;
+  font-weight: bold;
+  height: 0.1em;
+}
+
+.contact-main-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.contact-child-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ratings-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating p {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+.rating span {
+  text-align: center;
+  font-weight: bold;
+  color: #969696;
+}
+.app-download-container {
+  margin-top: 20px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  gap: 2rem;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  padding-left: 1rem;
+}
+
+.search-box button {
+  padding: 8px 16px;
+  background-color: #f77d2e;
+  border-radius: 2rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 8rem;
+  height: 2.5rem;
+}
